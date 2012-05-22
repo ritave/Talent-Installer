@@ -10,7 +10,7 @@ install_drive=""
 
 class Color:
 	Reset	= "\033[m"
-	Red		= "\033[31m"
+	Red	= "\033[31m"
 	Cyan	= "\033[36m"
 
 def Bullet(string):
@@ -70,10 +70,6 @@ def Install():
 	Bullet("[4/5] Kopiuje system...")
 	Exec(r"mount "+install_drive+r"2 /SYSTEM")
 	Exec(r"tar xf /Resources/System.tar -C /SYSTEM")
-	# Can't be arsed right now to fix the tar file, too big
-	# TODO: Fix, and remove those two lines below
-	Exec(r"mv /SYSTEM/temp/* /SYSTEM/")
-	Exec(r"rm -r /SYSTEM/temp")
 
 	Bullet("[5/5] Instaluje grub'a")
 	Exec(r"mount -t proc none /SYSTEM/proc")
