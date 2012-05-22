@@ -1,5 +1,6 @@
 W folderu Rapacz sa stare pliki skopiowane z instalujacego pendriva rapacza.
 Resources to folder ktory znajduje sie w '/' bootstrapujacego linuxa (ja uzylem arch linux).
 Aby odpalic instalke 'python3 Resources/RitaveInstaller.py', testowane na python3.2 i nie dziala na python2.7.
+System wsadzic do /Resources/System.tar jako nie skompresowany tar
 Komende mozna ew dodac do fstaba zamiast tty.
 Mozliwe ze skrypt rozni sie od tego co byl na OIGu detalami bo dodawalem last-minute poprawki a nie mam obecnie dostepu do tamtych pendrivow.
